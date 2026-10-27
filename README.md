@@ -10,6 +10,7 @@ Backend REST API untuk aplikasi laundry Di Laundry. API ini dibangun dengan Lara
 - Rekomendasi toko berdasarkan rating tertinggi
 - Pencarian toko berdasarkan nama kota
 - Daftar pesanan laundry berdasarkan pengguna
+- Pembuatan pesanan laundry baru oleh pengguna yang sudah login
 - Klaim pesanan laundry dengan kode klaim
 - Seeder berisi contoh data pengguna, toko, promo, dan pesanan
 
@@ -34,6 +35,7 @@ Endpoint yang memerlukan login dengan token Sanctum:
 | GET | `/api/shop/recommendation/limit` | Toko dengan rating tertinggi |
 | GET | `/api/shop/search/city/{name}` | Cari toko berdasarkan kota |
 | GET | `/api/laundry/user/{id}` | Pesanan milik satu pengguna |
+| POST | `/api/laundry` | Buat pesanan laundry baru, kode klaim dibuat otomatis dan status awal Queue |
 | POST | `/api/laundry/claim` | Klaim pesanan laundry |
 
 ## Teknologi
