@@ -83,6 +83,12 @@ php artisan serve
 
 API dapat diakses mulai dari `http://localhost:8000/api`. Contohnya, daftar toko ada di `http://localhost:8000/api/shop`.
 
+## Tangkapan Layar
+
+Halaman akar aplikasi ini adalah halaman sambutan Laravel. Layanan utamanya berupa API JSON pada endpoint yang tercantum di atas.
+
+![Tangkapan layar halaman utama](docs/screenshot.png)
+
 ## Lisensi
 
 Proyek ini memakai lisensi MIT. Lihat berkas [LICENSE](LICENSE) untuk teks lengkapnya.
