@@ -6,7 +6,7 @@ use App\Models\Laundry;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
-class laundrySeeder extends Seeder
+class LaundrySeeder extends Seeder
 {
     /**
      * Run the database seeds.
