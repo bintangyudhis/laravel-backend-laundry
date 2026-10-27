@@ -44,6 +44,9 @@ Route::middleware('auth:sanctum')->group(function () {
     // route untuk mencari shop berdasarkan nama city
     Route::get('/shop/search/city/{name}', [ShopController::class, 'searchByCity']);
 
+    // route untuk membuat pesanan laundry baru
+    Route::post('/laundry', [LaundryController::class, 'store']);
+
     // route untuk mendapatkan data laundry berdasarkan user_id
     Route::get('/laundry/user/{id}', [LaundryController::class, 'whereUserId']);
 
